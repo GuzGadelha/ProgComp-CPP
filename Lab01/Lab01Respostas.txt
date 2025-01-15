@@ -1,0 +1,63 @@
+AMBIENTE-DE-TRABALHO---------------------------------------------
+
+1° Questão
+erros:
+- Falta de ";" após "cenouras = 25"
+- Falta fechar aspas após "eu tenho"
+- O nome "abacaxi" deve ser substituído por "cenouras"
+
+2° Questão
+Não tem erros de sintaxe, mas sim erros de semântica 
+
+FIXAÇÂO----------------------------------------------------
+
+1° Questão
+- Tenha o visual estúdio instalado e abra-o
+- Clique em novo projeto
+- Selecione projeto vazio
+- Dê o nome do projeto
+- Diga o local a guardar ele
+- comece a codar
+
+2° Questão
+- Clique em "file" lá em cima no canto esquerdo
+- Clique em "close solution"
+- Assim você fecha apenas a solução atual e não o VS2022
+
+3° Questão
+- Saber em qual pasta ele está guardado
+- Abrir o navegador de arquivos
+- Selecionar no "ctrl" e deletar apertando o botão direito
+
+4° Questão
+- C:\Users\gusta\source\repos\ProgComp\ProgComp
+- Para criar dentro da propria solução basta apertar com o botão direito no arquivo atual e clicar em excluir do projeto
+
+5° QUESTÃO
+- Compilador e IntelliSense: Identifica erros de sintaxe em tempo de edição e fornece sugestões para corrigi-los.
+- Debugging Tools: Recursos como pontos de parada, inspeção de variáveis, pilha de chamadas e Watch Window para identificar e corrigir erros de lógica.
+- Output Window: Exibe mensagens de erro geradas pelo compilador.
+- Error List: Lista todos os erros, avisos e mensagens durante a compilação, com links para as linhas de código relacionadas.
+- Code Analysis: Analisa o código para identificar problemas de desempenho, segurança e possíveis erros de lógica.
+- Live Unit Testing: Executa testes unitários continuamente para verificar o comportamento do código.
+
+6° QUESTÃO
+- Não, o Visual Studio não permite iniciar a depuração se houver erros de sintaxe no programa. O código deve ser compilado com sucesso antes de ser depurado
+- Clicar no botão de Start Debugging na barra de ferramentas (ícone de "play")
+
+7° QUESTÃO 
+-  É uma marca no código que pausa a execução do programa durante a depuração em uma linha específica, permitindo que você inspecione o estado do programa naquele ponto.
+
+8° QUESTÃO
+- Depurando e olhando pela janela abaixo
+
+APRENDIZAGEM---------------------------------------------------------------------------
+
+3° Questão
+- Inicialmente terminam com 0
+- Vai compilar corretamente, mas não será mais o valor zero no final
+ 
+4° Questão
+- Sim entendo
+- Não aconteceria
+- A diferença é que esse não adiciona valores as variáveis, apenas declara seu tipo, assim não tomando tempo na execução do debugger
