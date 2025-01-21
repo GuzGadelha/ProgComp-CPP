@@ -1,0 +1,33 @@
+﻿Build started 21/01/2025 12:58:44.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\Lab04\Lab04.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+       InitializeBuildStatus:
+         Creating "x64\Debug\Lab04.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "x64\Debug\Lab04.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "Apr06(lab04).cpp"
+         Apr06(lab04).cpp
+     1>C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\Lab04\Apr06(lab04).cpp(36,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\Lab04\Apr06(lab04).cpp(28,6): warning C4101: 'res': unreferenced local variable
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\x64\Debug\Lab04.exe" /INCREMENTAL /ILK:"x64\Debug\Lab04.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\x64\Debug\Lab04.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\x64\Debug\Lab04.lib" /MACHINE:X64 "x64\Debug\Apr06(lab04).obj"
+         Lab04.vcxproj -> C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\x64\Debug\Lab04.exe
+       TlogCleanup:
+         Removing the following items from tlogs as they were removed from the project or build: C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\Lab04\Apr05(lab04).cpp
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Lab04.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\Lab04.tlog\Lab04.lastbuildstate".
+     1>Done Building Project "C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\Lab04\Lab04.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\Lab04\Lab04.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\Lab04\Apr06(lab04).cpp(36,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab04\Lab04\Apr06(lab04).cpp(28,6): warning C4101: 'res': unreferenced local variable
+
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
