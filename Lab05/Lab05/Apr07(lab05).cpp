@@ -2,46 +2,31 @@
 #include <cmath>
 using namespace std;
 
-double aoquadra(double);
-double aocubo(double);
+float aoQuadra(float);
+float aoCubo(float);
 
 int main() {
 	system("chcp 1252 > nul");
-
-	cout << "digite um valor: ";
-	double num;
+	// Entrada de dados, delcaração e leitura de variáveis
+	cout << "Digite um valor: ";
+	float num;
 	cin >> num;
+	// Chamda das funções 
+	cout << "Quadrado: " << aoQuadra(num) << endl;
+	cout << "Cubo: " << aoCubo(num) << endl;
+	cout << "Cubo do quadrado: " << aoCubo(aoQuadra(num)) << endl;
 
-	cout << "o valor ao quadrado é: ";
-	double num2;
-	num2 = aoquadra(num);
-	cout << num2 << endl;
-
-
-	cout << "o valor ao cubo é: ";
-	double num3;
-	num3 = aocubo(num);
-	cout << num3 << endl;
-
-	cout << "cubo do quadrado: ";
-	double num4;
-	num4 = aocubo(aoquadra(num));
-	cout << num4 << endl;
-
+	return 0;
 }
 
-double aoquadra(double num) {
-
-	double squ = num;
-	squ = pow(squ, 2);
-
-	return squ;
+float aoQuadra(float num) {
+	// Inicializo a variável já calculando seu valor ao quadrado
+	num = pow(num, 2);
+	return num;
 }
 
-double aocubo(double num) {
-
-	double cb = num;
-	cb = pow(cb, 3);
-
-	return cb;
+float aoCubo(float num) {
+	// Inicializo a variável já calculando seu valor ao cubo
+	num = pow(num, 3);
+	return num;
 }

@@ -1,43 +1,30 @@
-#include <iostream>
+Ôªø#include <iostream>
 #include <cmath>
 using namespace std;
 
-void distVet();
+float distVet(float, float);
 
 int main() {
 	system("chcp 1252 > nul");
-
-	distVet();
-
-}
-
-void distVet() {
-
-	double x, y;
-
-	cout << "digite coordenadas X e Y de um ponto no plano\n";
+	// Declara√ß√£o de vari√°veis
+	float x, y;
+	// Entrada de dados
+	cout << "Digite coordenadas do vetor:\n";
 	cout << "X: ";
 	cin >> x;
 	cout << "Y: ";
 	cin >> y;
+	//Chamada de fun√ß√£o
+	distVet(x, y);
 
-	double v = sqrt(pow(x, 2) + pow(y, 2));
-
-	cout << "O tamanho do vetor È " << v;
-
+	return 0;
 }
 
-/*A norma ou mÛdulo de um vetor È um n˙mero real que representa o comprimento
-desse vetor. Dessa forma, calcular a norma de um vetor È o mesmo que calcular a
-dist‚ncia entre um ponto (x,y) e a origem (0,0). Utilizando |v| como a notaÁ„o para
-o mÛdulo de um vetor v = (x,y) pertencente ao plano, teremos:
-		  |??| = ???^2 + ??^2
-Crie uma funÁ„o que receba as coordenadas (x,y) de um vetor e retorne seu
-mÛdulo. Inclua a biblioteca cmath e utilize as funÁıes sqrt e pow para calcular raiz
-quadrada e potenciaÁ„o.
+float distVet(float x, float y) {
+	// Fun√ß√£o executa a formula de calculo de um vetor
+	// ‚à£v‚à£ = ‚àöx¬≤+y¬≤
+	double v = sqrt(pow(x, 2) + pow(y, 2));
 
-Digite as coordenadas do vetor:
-x: 10
-y: 5
-O tamanho do vetor È 11.1803
-*/
+	cout << "\nO tamanho do vetor √© " << v << endl;
+
+}

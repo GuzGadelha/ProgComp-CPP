@@ -1,22 +1,22 @@
 #include <iostream>
 using namespace std;
 
-void horas(int x, int y);
+void horas(int, int);
 int x, y;
 
 int main() {
 	system("chcp 1252 > nul");
-
-	cout << "entre com o valor da hora:\n";
+	// Recebendo valores
+	cout << "Entre com o valor da hora: ";
 	cin >> x;
-	cout << "agora coloque os minutos:\n";
+	cout << "Agora coloque os minutos: ";
 	cin >> y;
-
+	// chamando função
 	horas(x, y);
 
 }
 
 void horas(int x, int y) {
-
-	cout << "agora são: " << x << ":" << y;
+	// a função escreve separadamente os números já com os dois pontos
+	cout << "agora são: " << x << ":" << y << endl;
 }

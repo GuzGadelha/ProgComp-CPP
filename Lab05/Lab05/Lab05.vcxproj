@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Apr06\Apr06(lab05).cpp" />
+    <ClCompile Include="Apr06\Apr06extra%28lab05%29.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Apr06\Apr06extra%28lab05%29.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

@@ -6,34 +6,19 @@ int salAum(int);
 int main() {
 	system("chcp 1252 > nul");
 
-	cout << "por favor digite o valor de seu atual salário: ";
-	int salAt, salDp;
+	//entrada de dados
+	cout << "Por favor digite o valor de seu atual salário: ";
+	int salAt;
 	cin >> salAt;
-
-	salDp = salAum(salAt);
-
+	//Retorno ao usuário e chamada da função
 	cout << "Salário atual: " << salAt << endl;
-	cout << "Salário ajustado para: " << salDp;
+	cout << "Salário ajustado para: " << salAum(salAt);
 
 }
 
-int salAum(int a) {
+int salAum(int salAt) {
+	//aumenta o salario para + 15%
+	salAt = salAt + (salAt * 0.15);
 
-	a = a + (a * 0.15);
-
-	return a;
+	return salAt;
 }
-
-
-
-
-
-
-
-/*Defina uma função que aumenta o salário de um funcionário em 15%. Na função
-principal peça o salário atual do funcionário, passe este salário para uma função
-que retorna o salário aumentado. Na função principal mostre o novo salário do
-funcionário.
-C R$10000
-Salário ajustado para R$11500
-*/

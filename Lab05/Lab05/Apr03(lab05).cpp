@@ -2,43 +2,24 @@
 #include <cmath>
 using namespace std;
 
-double IMC(double, double);
+float IMC(float, float);
 
 int main() {
 	system("chcp 1252 > nul");
-
-	double mas, alt;
-	
-	cout << "entre agora com sua altura: ";
-	cin >> alt;
-	cout << "entre com sua massa: ";
-	cin >> mas;
-
-	double res = IMC(mas, alt);
-
+	// Declaração de variáveis
+	float mas, alt;
+	// Entrada e Saída de dados
 	cout << "Índice de Massa Corporal (IMC)\n";
-	cout << "------------------------\n";
-	cout << "altura: " << alt << endl;
-	cout << "massa: " << mas << endl;
-	cout << "IMC: " << res << endl;
+	cout << "-------------------------------\n";
+	cout << "altura: "; cin >> alt;
+	cout << "massa: "; cin>> mas;
+	cout << "IMC: " << IMC(mas, alt) << endl;
+
 	return 0;
 }
 
-double IMC(double a, double b) {
-	double imc;
-	imc = a / pow(b, 2);
+float IMC(float mas, float alt) {
+	// Função faz a formula do IMC
+	float imc = mas / pow(alt, 2); /// IMC = massa / (altura)²
 	return imc;
 }
-
-/*3. Construa uma função que calcule o índice de massa corporal (IMC) de um
-indivíduo. A função receberá a altura (m) e a massa (kg) do indivíduo e retornará o
-seu IMC para a função principal. A função principal deve mostrar o resultado.
-
-Use a fórmula: IMC = massa / (altura) ²
-
-Índice de Massa Corporal (IMC)
-------------------------
-Altura: 1.78
-Massa: 75
-IMC: 23.6713
-*/
