@@ -7,7 +7,7 @@ int main() {
 
 	int num;
 
-	cout << "gerando numero pseudoaleatorio" << endl;
+	cout << "gerando numero pseudoaleatorio: " << endl;
 	srand(time(NULL));
 	cout << rand() << endl;
 
@@ -17,7 +17,7 @@ int main() {
 		cout << "GRANDE" << endl;
 	}
 	else {
-		cout << "PEQUENO";
+		cout << "PEQUENO" << endl;
 	}
 
 }

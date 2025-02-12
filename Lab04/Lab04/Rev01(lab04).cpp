@@ -5,7 +5,6 @@ int main() {
 
 	system("chcp 1252 > nul");
 
-	srand(3);
 	cout << rand() << endl;
 	cout << rand() << endl;
 	cout << rand() << endl;
@@ -14,7 +13,7 @@ int main() {
 
 }
 
-/* ao usar ca semente 1 os resultados serão:
+/* ao usar a semente "1" os resultados serão:
 41
 18467
 6334

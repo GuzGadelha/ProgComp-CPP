@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void sorria(void);
+void sorria();
 
 int main() {
 
@@ -10,11 +10,10 @@ int main() {
 	sorria(); sorria();
 	cout << endl;
 	sorria();
-
+	
 	return 0;
-
 }
 
-void sorria(void) {
+void sorria() {
 	cout << "sorria!";
 }

@@ -9,21 +9,21 @@ int main() {
 
 	system("chcp 1252 > nul");
 
-	cout << "começando agora\n";
+	cout << "Começando agora\n";
 	um(); dois(); tres();
 	cout << endl;
-	cout << "pronto!";
+	cout << "Pronto!";
 
 	return 0;
 
 }
 
 void um() {
-	cout << "um ";
+	cout << "Um ";
 }
 void dois() {
-	cout << "dois ";
+	cout << "Dois ";
 }
 void tres() {
-	cout << "três ";
+	cout << "Três ";
 }

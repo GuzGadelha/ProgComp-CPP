@@ -40,3 +40,5 @@ void media(void) {
 void grande(void) {
 	linha(); linha(); linha();
 }
+
+// Tem como fazer com o "cout << endl" dentro das funções pequena, media e grande, ou escrev~-lo na função main, eu prefiro na main pois me da mais opções
