@@ -1,0 +1,23 @@
+﻿Build started 11/02/2025 17:36:23.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\Lab07\Lab07.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+       InitializeBuildStatus:
+         Touching "x64\Debug\Lab07.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.exe" /INCREMENTAL /ILK:"x64\Debug\Lab07.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.lib" /MACHINE:X64 "x64\Debug\Apr4(lab07).obj"
+         Lab07.vcxproj -> C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.exe
+       TlogCleanup:
+         Removing the following items from tlogs as they were removed from the project or build: C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\Lab07\Apr03(lab07).cpp
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Lab07.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\Lab07.tlog\Lab07.lastbuildstate".
+     1>Done Building Project "C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\Lab07\Lab07.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.25
