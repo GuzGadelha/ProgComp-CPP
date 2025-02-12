@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DEE9DAF-71A6-4E6F-8CF5-FA280DEB9672}|Lab03\\Lab03.vcxproj|C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab03\\Lab03\\Apr06(lab03).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9DEE9DAF-71A6-4E6F-8CF5-FA280DEB9672}|Lab03\\Lab03.vcxproj|solutionrelative:Lab03\\Apr06(lab03).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9DEE9DAF-71A6-4E6F-8CF5-FA280DEB9672}|Lab03\\Lab03.vcxproj|C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab03\\Lab03\\Apr01(lab03).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DEE9DAF-71A6-4E6F-8CF5-FA280DEB9672}|Lab03\\Lab03.vcxproj|solutionrelative:Lab03\\Apr01(lab03).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Apr06(lab03).cpp",
-              "DocumentMoniker": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab03\\Lab03\\Apr06(lab03).cpp",
-              "RelativeDocumentMoniker": "Lab03\\Apr06(lab03).cpp",
-              "ToolTip": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab03\\Lab03\\Apr06(lab03).cpp*",
-              "RelativeToolTip": "Lab03\\Apr06(lab03).cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "Apr01(lab03).cpp",
+              "DocumentMoniker": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab03\\Lab03\\Apr01(lab03).cpp",
+              "RelativeDocumentMoniker": "Lab03\\Apr01(lab03).cpp",
+              "ToolTip": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab03\\Lab03\\Apr01(lab03).cpp*",
+              "RelativeToolTip": "Lab03\\Apr01(lab03).cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-17T18:00:45.111Z",
+              "WhenOpened": "2025-02-03T16:53:43.914Z",
               "EditorCaption": ""
             }
           ]
