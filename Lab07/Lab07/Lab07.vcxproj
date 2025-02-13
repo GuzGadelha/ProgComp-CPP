@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Apr4(lab07).cpp" />
+    <ClCompile Include="Apr05(lab07).cpp" />
     <ClCompile Include="Fix05(lab07).cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
