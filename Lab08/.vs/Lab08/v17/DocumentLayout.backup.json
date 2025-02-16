@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{948EC3A4-6DB0-4156-8B2D-AFF1C167D406}|Lab08\\Lab08.vcxproj|C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab08\\Lab08\\Apr02(lab08).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{948EC3A4-6DB0-4156-8B2D-AFF1C167D406}|Lab08\\Lab08.vcxproj|solutionrelative:Lab08\\Apr02(lab08).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Apr02(lab08).cpp",
+              "DocumentMoniker": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab08\\Lab08\\Apr02(lab08).cpp",
+              "RelativeDocumentMoniker": "Lab08\\Apr02(lab08).cpp",
+              "ToolTip": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab08\\Lab08\\Apr02(lab08).cpp*",
+              "RelativeToolTip": "Lab08\\Apr02(lab08).cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T18:19:15.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
