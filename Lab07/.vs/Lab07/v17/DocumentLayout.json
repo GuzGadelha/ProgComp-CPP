@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A6753D5-6E3E-48ED-B9E3-6C96AF9A993C}|Lab07\\Lab07.vcxproj|C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab07\\Lab07\\Apr05(lab07).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7A6753D5-6E3E-48ED-B9E3-6C96AF9A993C}|Lab07\\Lab07.vcxproj|solutionrelative:Lab07\\Apr05(lab07).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A6753D5-6E3E-48ED-B9E3-6C96AF9A993C}|Lab07\\Lab07.vcxproj|C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab07\\Lab07\\Fix05(lab07).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7A6753D5-6E3E-48ED-B9E3-6C96AF9A993C}|Lab07\\Lab07.vcxproj|solutionrelative:Lab07\\Fix05(lab07).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Fix05(lab07).cpp",
-              "DocumentMoniker": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab07\\Lab07\\Fix05(lab07).cpp",
-              "RelativeDocumentMoniker": "Lab07\\Fix05(lab07).cpp",
-              "ToolTip": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab07\\Lab07\\Fix05(lab07).cpp",
-              "RelativeToolTip": "Lab07\\Fix05(lab07).cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-13T16:56:43.383Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,9 +24,9 @@
               "RelativeDocumentMoniker": "Lab07\\Apr05(lab07).cpp",
               "ToolTip": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab07\\Lab07\\Apr05(lab07).cpp",
               "RelativeToolTip": "Lab07\\Apr05(lab07).cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-13T16:22:44.591Z",
+              "WhenOpened": "2025-02-14T17:40:53.539Z",
               "EditorCaption": ""
             }
           ]

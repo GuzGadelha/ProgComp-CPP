@@ -11,7 +11,7 @@ int main() {
 	// Variáveis
 	int ligaIndice = 3; // Caso eu for ligar o 3° devera imprimir o número 8
 	int desligaIndice = 1;
-	int TestarIndice = 1;
+	int TestarIndice = 2;
 	unsigned char oitoBits = 0b0000'0001; // Representei 0 em binário, no caso 1 byte
 	
 	// Cabeçalho
@@ -43,15 +43,6 @@ unsigned char desligarBit(unsigned char binario, int deslocamento) {
 }
 
 bool TestarBit(unsigned char numeroOriginal, int bitSelecionado) {
-	unsigned char mask = 1 << bitSelecionado;
-	bool resultado = true;
-	if (numeroOriginal & mask) {
-		cout << "Ligado!\n";
-		resultado = true;
-	}
-	else {
-		cout << "Desligado!\n";
-		resultado = false;
-	}
-	return resultado;
+	unsigned char mask = 1;
+	return numeroOriginal & (mask << bitSelecionado -1);
 }
