@@ -5,25 +5,11 @@ char charada(char, int);
 
 int main() {
 	system("chcp 1252 > nul");
-	// Variáveis 
-	int x;
-	char letInicial;
-	// Primeira chamada deve imprimir P
-	x = 15;
-	letInicial = 'A';
-	cout << charada(letInicial, x);
-	// Segunda chamada deve imprimir a
-	x = 32;
-	cout << charada(letInicial, x);
-	// Terceira chamada deve imprimir p
-	x = 47;
-	cout << charada(letInicial, x);
-	// Quarta chamada deve imprimir e
-	x = 36;
-	cout << charada(letInicial, x);
-	// Quinta e ultima chamada deve imprimir l
-	x = 43;
-	cout << charada(letInicial, x);
+	cout << charada('P' - 20, 20);
+	cout << charada('a' - 90, 90);
+	cout << charada('p' - 72, 72);
+	cout << charada('e' - 48, 48);
+	cout << charada('l' - 107, 107);
 	return 0;
 }
 

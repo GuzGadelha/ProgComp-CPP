@@ -1,30 +1,21 @@
-﻿Build started 14/02/2025 14:45:34.
+﻿Build started 17/02/2025 22:32:13.
 Logging verbosity is set to: Normal.     1>Project "C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\Lab07\Lab07.vcxproj" on node 2 (Build target(s)).
      1>PrepareForBuild:
          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
        InitializeBuildStatus:
          Touching "x64\Debug\Lab07.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "Apr05(lab07).cpp"
-         Apr05(lab07).cpp
-     1>C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\Lab07\Apr05(lab07).cpp(22,32): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+         All outputs are up-to-date.
        Link:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.exe" /INCREMENTAL /ILK:"x64\Debug\Lab07.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.lib" /MACHINE:X64 "x64\Debug\Apr05(lab07).obj"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.exe" /INCREMENTAL /ILK:"x64\Debug\Lab07.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.lib" /MACHINE:X64 "x64\Debug\Fix03(lab07).obj"
          Lab07.vcxproj -> C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\x64\Debug\Lab07.exe
-       TlogCleanup:
-         Removing the following items from tlogs as they were removed from the project or build: C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\Lab07\Fix05(lab07).cpp
        FinalizeBuildStatus:
          Deleting file "x64\Debug\Lab07.tlog\unsuccessfulbuild".
          Touching "x64\Debug\Lab07.tlog\Lab07.lastbuildstate".
      1>Done Building Project "C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\Lab07\Lab07.vcxproj" (Build target(s)).
 
 Build succeeded.
-
-       "C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\Lab07\Lab07.vcxproj" (Build target) (1) ->
-       (ClCompile target) -> 
-         C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab07\Lab07\Apr05(lab07).cpp(22,32): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
-
-    1 Warning(s)
+    0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.85
+Time Elapsed 00:00:00.35

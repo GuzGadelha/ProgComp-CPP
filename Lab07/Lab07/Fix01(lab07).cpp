@@ -5,7 +5,7 @@ char conversor(int);
 int main() {
 	system("chcp 1252 > nul");
 
-	cout <<"Digitre uma numero: ";
+	cout <<"Digite uma número: ";
 	int num;
 	cin >> num;
 	cout << "Código: " << conversor(num);
@@ -14,9 +14,7 @@ int main() {
 }
 
 char conversor(int num) {
-	char letra;
-	letra = num;
-	return letra;
+	return char(num);
 }
 
 // 65  = A
