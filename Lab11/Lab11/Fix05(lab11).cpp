@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 
@@ -11,8 +10,7 @@ int main() {
 	cout << "Digite uma palavra: ";
 	cin >> nome;
 	// Saída
-	cout << "Em " << nome << " a última palavra é " << nome[tam - 1];
+	cout << "Em " << nome << " a última palavra é " << nome[strlen(nome) - 1];
 
 	return 0;
 }
-*/

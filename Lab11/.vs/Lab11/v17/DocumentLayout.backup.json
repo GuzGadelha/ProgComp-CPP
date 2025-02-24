@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BFBE8F3-D17D-4CC9-8E32-E70629E873A6}|Lab11\\Lab11.vcxproj|C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\Lab11\\Apr02(lab11).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3BFBE8F3-D17D-4CC9-8E32-E70629E873A6}|Lab11\\Lab11.vcxproj|solutionrelative:Lab11\\Apr02(lab11).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BFBE8F3-D17D-4CC9-8E32-E70629E873A6}|Lab11\\Lab11.vcxproj|C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\Lab11\\Fix05(lab11).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3BFBE8F3-D17D-4CC9-8E32-E70629E873A6}|Lab11\\Lab11.vcxproj|solutionrelative:Lab11\\Fix05(lab11).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3BFBE8F3-D17D-4CC9-8E32-E70629E873A6}|Lab11\\Lab11.vcxproj|C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\Lab11\\Apr05(lab11).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3BFBE8F3-D17D-4CC9-8E32-E70629E873A6}|Lab11\\Lab11.vcxproj|solutionrelative:Lab11\\Apr05(lab11).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Apr02(lab11).cpp",
-              "DocumentMoniker": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\Lab11\\Apr02(lab11).cpp",
-              "RelativeDocumentMoniker": "Lab11\\Apr02(lab11).cpp",
-              "ToolTip": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\Lab11\\Apr02(lab11).cpp*",
-              "RelativeToolTip": "Lab11\\Apr02(lab11).cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Title": "Apr05(lab11).cpp",
+              "DocumentMoniker": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\Lab11\\Apr05(lab11).cpp",
+              "RelativeDocumentMoniker": "Lab11\\Apr05(lab11).cpp",
+              "ToolTip": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\Lab11\\Apr05(lab11).cpp*",
+              "RelativeToolTip": "Lab11\\Apr05(lab11).cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-19T19:42:26.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Fix05(lab11).cpp",
-              "DocumentMoniker": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\Lab11\\Fix05(lab11).cpp",
-              "RelativeDocumentMoniker": "Lab11\\Fix05(lab11).cpp",
-              "ToolTip": "C:\\Users\\gusta\\Documents\\DocsGitHub\\AprendendoC\u002B\u002B\\Lab11\\Lab11\\Fix05(lab11).cpp*",
-              "RelativeToolTip": "Lab11\\Fix05(lab11).cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-19T19:29:46.604Z",
+              "WhenOpened": "2025-02-21T17:52:31.252Z",
               "EditorCaption": ""
             }
           ]

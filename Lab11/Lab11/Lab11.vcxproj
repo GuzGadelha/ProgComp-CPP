@@ -127,8 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Apr02(lab11).cpp" />
-    <ClCompile Include="Fix05(lab11).cpp" />
+    <ClCompile Include="Apr05(lab11).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

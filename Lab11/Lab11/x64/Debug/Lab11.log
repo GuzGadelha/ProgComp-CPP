@@ -1,16 +1,18 @@
-﻿Build started 19/02/2025 16:46:52.
+﻿Build started 21/02/2025 15:01:20.
 Logging verbosity is set to: Normal.     1>Project "C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab11\Lab11\Lab11.vcxproj" on node 2 (Build target(s)).
      1>PrepareForBuild:
          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
        InitializeBuildStatus:
+         Creating "x64\Debug\Lab11.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
          Touching "x64\Debug\Lab11.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "Fix05(lab11).cpp"
-         Fix05(lab11).cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "Apr05(lab11).cpp"
+         Apr05(lab11).cpp
        Link:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab11\x64\Debug\Lab11.exe" /INCREMENTAL /ILK:"x64\Debug\Lab11.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab11\x64\Debug\Lab11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab11\x64\Debug\Lab11.lib" /MACHINE:X64 "x64\Debug\Apr02(lab11).obj"
-         "x64\Debug\Fix05(lab11).obj"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab11\x64\Debug\Lab11.exe" /INCREMENTAL /ILK:"x64\Debug\Lab11.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab11\x64\Debug\Lab11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab11\x64\Debug\Lab11.lib" /MACHINE:X64 "x64\Debug\Apr05(lab11).obj"
          Lab11.vcxproj -> C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab11\x64\Debug\Lab11.exe
+       TlogCleanup:
+         Removing the following items from tlogs as they were removed from the project or build: C:\Users\gusta\Documents\DocsGitHub\AprendendoC++\Lab11\Lab11\Apr04(lab11).cpp
        FinalizeBuildStatus:
          Deleting file "x64\Debug\Lab11.tlog\unsuccessfulbuild".
          Touching "x64\Debug\Lab11.tlog\Lab11.lastbuildstate".
@@ -20,4 +22,4 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.35
+Time Elapsed 00:00:01.10
