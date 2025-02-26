@@ -47,11 +47,11 @@ int main() {
 }
 
 unsigned int calcular(datas dataNasc, datas dataAtual) {
-	datas resultado;
-	unsigned int diasTotaisPorAno, diasTotaisPorMes, dias, diasTotais;
-	diasTotaisPorAno = (dataAtual.ano * 365) - (dataNasc.ano * 365);
-	diasTotaisPorMes = ((diasTotaisPorAno / 12) + dataAtual.mes + dataNasc.mes) * 31;
-	diasTotais = diasTotaisPorMes + dataAtual.dia + dataNasc.dia;
-	return diasTotais;
+	const int diasAno = 365;
+	const int diasMes = 31;
+	unsigned int diasNasc = (dataNasc.ano * diasAno) + ((dataNasc.mes - 1) * diasMes) + dataNasc.dia;
+	unsigned int diasAtual = (dataAtual.ano * diasAno) + ((dataAtual.mes - 1) * diasMes) + dataAtual.dia;
+	unsigned int total = diasAtual - diasNasc;
+	return total;
 }
 

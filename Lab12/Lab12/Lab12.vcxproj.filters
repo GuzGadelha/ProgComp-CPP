@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="x64\Fix03(lab12).cpp">
+    <ClCompile Include="Apr06%28lab12%29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

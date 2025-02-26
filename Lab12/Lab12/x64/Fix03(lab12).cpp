@@ -22,7 +22,7 @@ int main() {
 	cin >> nasceu.mes;
 	cin.ignore(1);
 	cin >> nasceu.ano;
-	cout << "Que dia é hoje?";
+	cout << "Que dia é hoje? ";
 	cin >> hoje.dia;
 	cin.ignore(1);
 	cin >> hoje.mes;
@@ -40,6 +40,6 @@ unsigned int calcular(datas dataNasc, datas dataAtual) {
 	const int diasMes = 31;
 	unsigned int diasNasc = (dataNasc.ano * diasAno) + ((dataNasc.mes - 1) * diasMes) + dataNasc.dia;
 	unsigned int diasAtual = (dataAtual.ano * diasAno) + ((dataAtual.mes - 1) * diasMes) + dataAtual.dia;
-	unsigned int total;
-	return total = diasNasc + diasAtual;
+	unsigned int total = diasAtual - diasNasc;
+	return total;
 }
